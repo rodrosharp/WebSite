@@ -1,0 +1,234 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Rose', cursive;  
+}
+
+div.contenedor{
+    width: 1200px; 
+    margin: 0 auto;        
+ }
+
+ div.logo img{
+     width: 1200px;
+     height: auto;
+ }
+
+ .navbar{
+    /*width: 1200px;*/
+    margin: 0 auto;
+    position: relative;
+    font-size: large;   
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(212, 3, 3);
+    font-style: oblique;        
+}
+
+.navbar img{
+    width: 100px;
+    height: 70px;
+}
+
+
+
+/*contenido principal*/
+
+div.contenido::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main{
+    float: left;
+    padding-right: 40px;
+    width: 70%;
+    
+}
+
+aside{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+}
+
+h2{
+    font-family: 'Ranchers', cursive;
+    font-family: 'Red Rose', cursive;
+    font-family: 'Sriracha', cursive;
+    color: coral;    
+}
+
+
+article{
+    margin-top: 20px;
+}
+
+.siderbar{
+    margin-top: 30px;
+}
+
+article img{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+article p{
+    line-height: 1.5;
+    text-align: left;
+}
+
+.boton{
+    background-color: darkblue;
+    padding: 10px 30px;
+    display: inline-table;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 2cm;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    padding: 10px 0px 10px 10px;
+}
+
+aside ul li:hover{
+    background-color: rgb(189, 185, 185);
+    border-radius: 1cm;
+}
+
+footer{
+    background-color: rgba(8, 8, 8, 0.829);
+    margin-top: 30px;
+}
+
+footer h2{
+    color: rgb(182, 0, 0);
+}
+
+footer .contenedor::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+footer div.nosotros{    
+    width: 90%;    
+    color:  white;
+        
+}
+
+p.copyright{
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.proceso h2{
+    margin-top: 150px;   
+    
+}
+
+.proceso ul{
+    list-style: none;
+}
+
+.proceso h3{
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Staatliches', cursive;
+    margin-top: 30px;
+    
+}
+
+.proceso img{
+    width: 100;
+    height: 100;
+}
+
+.container table{
+    background-color:rgb(189, 194, 196);    
+    padding: 10px 30px;
+}
+.container table th{    
+    text-align: center;
+    font-display: initial;
+}
+
+.contacto{    
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 15px;
+}
+
+.contacto input, .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+
+.contacto input{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px white);    
+}
+
+/**/
+
+div.gallery {
+    margin: 3px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 160px;
+    margin-bottom: 80px;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+ 
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+  }
